@@ -1,6 +1,8 @@
+package exercicio1;
+
 import java.util.Scanner;
 
-public class exercicio1_areacirculo_main {
+public class area_circulo_main {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
@@ -18,7 +20,7 @@ public class exercicio1_areacirculo_main {
 
 // Calculo da área:
 
-        System.out.println("\nA área do cículo de raio " + x + " é " + p * (calculo_ex1_func.raio(x)) );
+        System.out.println("\nA área do cículo de raio " + x + " é " + p * (Calculo_funcao.raio(x)) );
 
 
 
